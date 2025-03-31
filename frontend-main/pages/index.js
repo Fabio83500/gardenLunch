@@ -52,7 +52,7 @@ export default function Home() {
               </ul>
             </div>
             {/* Menu Mobile */}
-            <div className={`${isOpen ? "block" : "hidden"} absolute top-16 left-0 w-full bg-[#333] 
+            <div className={`${isOpen ? "block" : "hidden"} absolute top-16 left-0 w-full bg-[#FFF] 
       text-white md:hidden`}>
               <ul className="flex flex-col p-4 space-y-2">
                 <li><a href="/#carte" className="block py-2 px-3">La carte</a></li>

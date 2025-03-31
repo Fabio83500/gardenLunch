@@ -5,7 +5,7 @@ export default function layout() {
   return (
     <div className='max-w-7xl mx-auto pt-5 pb-10' >
          <div id="apropos" className='px-4 md:px-8 lg:px-0'>
-            <h2 className='text-4xl text-center text-[#b4cd1f] '>A propos de nous </h2>
+            <h2 className='text-4xl mb-10 md:mb-0 text-center text-[#b4cd1f] '>A propos de nous </h2>
             <div className='md:flex items-center justify-between'>
               <p className=' md:w-1/2 mb-10 md:mb-0 text-xl '>
                 Situé au cœur de la zone des Playes à Six-Fours, GardenLunch est l'endroit idéal pour une pause
