@@ -8,8 +8,6 @@ export default function Header() {
             <section className="hidden relative w-full px-4 text-gray-700 bg-white py-3 body-font shadow-lg">
                 <div className="container flex flex-row items-center justify-between mx-auto  max-w-7xl">
 
-                    <Link href="/" className="">
-                    </Link>
 
                     <nav className="top-0 left-0 z-0 flex items-center justify-end w-full h-full
                      space-x-10 text-base ">

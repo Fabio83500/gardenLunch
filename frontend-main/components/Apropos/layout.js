@@ -15,7 +15,8 @@ export default function layout() {
                    vous accueille avec bonne humeur et simplicité. <br /> Venez découvrir notre menu et faites de 
                    votre pause repas un vrai moment de plaisir !
                 </p>
-                <Image className='md:w-1/3 h-[30rem] object-cover' src={imgApropos} width={2500} height={1000} />
+                <Image className='md:w-1/3 h-[30rem] object-cover' 
+                src={imgApropos} alt='image a propos' width={2500} height={1000} />
             </div>
           </div>
     </div>

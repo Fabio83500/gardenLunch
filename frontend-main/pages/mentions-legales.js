@@ -14,7 +14,7 @@ export default function mentionsLegales() {
       </Head>
       <header className='py-2 max-w-7xl mx-auto top-0 left-0 w-full flex justify-between items-center z-50'>
           <a href="/" className="nom">
-            <Image src={gardenLunch} width={100} height={100} />
+            <Image src={gardenLunch} width={100} alt='logo gardenLunch' height={100} />
           </a>
           <ul className='flex space-x-10 items-center '>
             <li><a className='w-full hover:text-[#EB3A3A]' href="/#accueil">Accueil</a></li>

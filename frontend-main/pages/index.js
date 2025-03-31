@@ -29,7 +29,7 @@ export default function Home() {
         <nav className="bg-[#fff] sticky top-0 shadow-lg z-50 relative">
           <div className="max-w-7xl flex flex-wrap items-center justify-between mx-auto py-4 px-4 md:px-0">
             <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-              <Image src={gardenLunch} alt='logo garden pizz' width={90} height={240} />
+              <Image className='w-[6rem] h-fit' src={gardenLunch} priority alt='logo gardenLunch' width={800} height={240} />
             </a>
             <button onClick={handleClick} className="md:hidden ">
               {isOpen ? (

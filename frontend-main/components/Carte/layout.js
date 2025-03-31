@@ -13,8 +13,8 @@ export default function layout() {
                 <h2 className='text-4xl text-center text-[#b4cd1f] mb-10 '>Notre carte</h2>
                 <Image className='hidden lg:block rounded-xl ' alt='la carte' width={9000} height={9000} quality={99} src={flyVerso} />
                 <Image className='lg:hidden' alt='carte page 1' src={flyTel1} />
-                <Image className='lg:hidden' alt='carte page 1' src={flyTel2} />
-                <Image className='lg:hidden' alt='carte page 1' src={flyTel3} />
+                <Image className='lg:hidden' alt='carte page 2' src={flyTel2} />
+                <Image className='lg:hidden' alt='carte page 3' src={flyTel3} />
 
             </div>
         </div>
