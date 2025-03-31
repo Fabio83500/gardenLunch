@@ -1,7 +1,6 @@
 import React from 'react'
 import herolunch from "@/public/assets/images/heroLunch.png"
 import Image from 'next/image'
-import { event } from "../../lib/gtag";
 
 export default function layout() {
     return (
@@ -13,17 +12,9 @@ export default function layout() {
                 <div className=" flex flex-col px-4 md:px-8 lg:px-0 items-center text-center justify-center absolute inset-0 ">
                     <Image src={herolunch} 
                     priority alt='logo hero gardenLunch '
-                        className='object-contain 2xl:w-[40rem] xl:w-[30rem]  ' />
+                        className='object-contain 2xl:w-[40rem] xl:w-[40rem]  ' />
                     <div className="flex items-center justify-center ">
-                        <a
-                         onClick={() => {
-                            event({
-                              action: "call_button_click",
-                              category: "Contact",
-                              label: "Bouton Appeler",
-                              value: 1,
-                            });
-                          }}
+                       <a
                         
                         id="numTel" href="tel:07 68 78 18 26"
                             className="shadow-none w-fit mt-8 rounded-md border-none flex items-center space-x-2
