@@ -11,9 +11,9 @@ export default function layout() {
             </div>
             <div className='flex flex-col items-center '>
                 <h4 className='md:text-5xl text-4xl mt-10 md:mt-0'>Ou nous trouver ? </h4>
-                <span className='text-[#E6591D] text-3xl my-4 block'>GardenLunch</span>
+                <span className='text-[#b4cd1f] text-3xl my-4 block'>GardenLunch</span>
                 <span className=' text-xl'>55 Rue de l'artisanat <br /> 83140 Six fours les plages</span>
-                <span className='block text-[#E6591D] text-2xl mt-4'>07 68 78 18 26 </span>
+                <span className='block text-[#b4cd1f] text-2xl mt-4'>07 68 78 18 26 </span>
                 <div className='text-lg mt-4'>
                     <span className='block '>Lundi : 11:00 - 14:00 </span>
                     <span className='block '>Mardi : 11:00 - 14:00 </span>
