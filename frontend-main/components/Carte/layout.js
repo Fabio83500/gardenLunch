@@ -1,8 +1,8 @@
 import React from 'react'
-import flyTel1 from "@/public/assets/images/flyTel1.png"
-import flyTel2 from "@/public/assets/images/flyTel2.png"
-import flyTel3 from "@/public/assets/images/flyTel3.png"
-import fly3v from "@/public/assets/images/carte.png"
+import flyTel1 from "@/public/assets/images/flyTel1.jpg"
+import flyTel2 from "@/public/assets/images/flyTel2.jpg"
+import flyTel3 from "@/public/assets/images/flyTel3.jpg"
+import fly3v from "@/public/assets/images/carte.jpg"
 
 
 import Image from 'next/image'
