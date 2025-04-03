@@ -10,10 +10,8 @@ export default function App({ Component, pageProps }) {
  
   return (
     <Layout >
-     
      <div className={poppins.variable}>
      <Component {...pageProps} />
-
      </div>
     </Layout>
   );

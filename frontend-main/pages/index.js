@@ -52,8 +52,7 @@ export default function Home() {
               </ul>
             </div>
             {/* Menu Mobile */}
-            <div className={`${isOpen ? "block" : "hidden"} absolute top-16 left-0 w-full bg-[#FFF] 
-      text-white md:hidden`}>
+            <div className={`${isOpen ? "block" : "hidden"} absolute top-20 left-0 w-full bg-[#FFF] md:hidden`}>
               <ul className="flex flex-col p-4 space-y-2">
                 <li><a href="/#carte" className="block py-2 px-3">La carte</a></li>
                 <li><a href="/#apropos" className="block py-2 px-3">A propos</a></li>
@@ -63,15 +62,12 @@ export default function Home() {
         </nav>
 
         <Hero />
-
         <div className='max-w-7xl mx-auto'>
           <Carte />
         </div>
         <div className='bg-gray-100'>
-
           <Apropos />
         </div>
-
         <Localisation />
         <Carroussel />
       </section>

@@ -12,10 +12,9 @@ export default function layout() {
                 <div className=" flex flex-col px-4 md:px-8 lg:px-0 items-center text-center justify-center absolute inset-0 ">
                     <Image src={herolunch} 
                     priority alt='logo hero gardenLunch '
-                        className='object-contain 2xl:w-[40rem] xl:w-[40rem]  ' />
+                        className='w-[35rem] ' />
                     <div className="flex items-center justify-center ">
                        <a
-                        
                         id="numTel" href="tel:07 68 78 18 26"
                             className="shadow-none w-fit mt-8 rounded-md border-none flex items-center space-x-2
                              text-sm px-4 py-2.5
@@ -28,7 +27,6 @@ export default function layout() {
                             </svg><span id="numTel" className="block text-xl">07 68 78 18 26</span>
                         </a>
                     </div>
-                   
                 </div>
             </div>
         </div>
