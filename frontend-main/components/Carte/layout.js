@@ -1,12 +1,11 @@
 import React from 'react'
-import flyTel1 from "@/public/assets/images/flyTel1.jpg"
-import flyTel2 from "@/public/assets/images/flyTel2.jpg"
-import flyTel3 from "@/public/assets/images/flyTel3.jpg"
-import fly3v from "@/public/assets/images/flyer3v.jpg"
+import flyTel1 from "@/public/assets/images/flyTel1.PNG"
+import flyTel2 from "@/public/assets/images/flyTel2.PNG"
+import flyTel3 from "@/public/assets/images/flyTel3.PNG"
+import fly3v from "@/public/assets/images/carte.PNG"
 
 
 import Image from 'next/image'
-import flyVerso from "@/public/assets/images/carte.jpg"
 
 export default function layout() {
     return (
