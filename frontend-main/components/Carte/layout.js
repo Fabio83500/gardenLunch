@@ -16,7 +16,6 @@ export default function layout() {
                 <Image className='lg:hidden' alt='carte page 1' src={flyTel1} />
                 <Image className='lg:hidden' alt='carte page 2' src={flyTel2} />
                 <Image className='lg:hidden' alt='carte page 3' src={flyTel3} />
-
             </div>
         </div>
     )

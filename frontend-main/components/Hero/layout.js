@@ -12,7 +12,7 @@ export default function layout() {
                 <div className=" flex flex-col px-4 md:px-8 lg:px-0 items-center text-center justify-center absolute inset-0 ">
                     <Image src={herolunch} 
                     priority alt='logo hero gardenLunch '
-                        className='w-[35rem] ' />
+                        className='w-[30rem] ' />
                     <div className="flex items-center justify-center ">
                        <a
                         id="numTel" href="tel:07 68 78 18 26"
