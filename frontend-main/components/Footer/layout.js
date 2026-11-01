@@ -38,6 +38,9 @@ export default function Footer() {
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <span className="block text-sm ">© 2025
               <a href="#accueil" className="hover:underline"> GardenLunch </a>.Tous droits réservés .</span>
+            <span className="block text-sm mt-2">Site réalisé par{" "}
+              <a href="https://www.mfagency.fr" target="_blank" rel="noopener" className="underline hover:no-underline">MF Agency</a>
+            </span>
           </div>
         </footer>
         </>
